@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660711D228EC4EBB00AB2913 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660711D128EC4EBB00AB2913 /* News.swift */; };
+		660711D428EC4FDF00AB2913 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660711D328EC4FDF00AB2913 /* WebService.swift */; };
 		663912D828EB397100BBD4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663912D728EB397100BBD4DE /* AppDelegate.swift */; };
 		663912DA28EB397100BBD4DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663912D928EB397100BBD4DE /* SceneDelegate.swift */; };
 		663912DC28EB397100BBD4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663912DB28EB397100BBD4DE /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		660711D128EC4EBB00AB2913 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		660711D328EC4FDF00AB2913 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		663912D428EB397100BBD4DE /* MVVMApiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMApiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663912D728EB397100BBD4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663912D928EB397100BBD4DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,14 +66,10 @@
 				663912ED28EB39BA00BBD4DE /* View */,
 				663912EC28EB39B200BBD4DE /* Service */,
 				663912EB28EB39AC00BBD4DE /* Model */,
-				663912D728EB397100BBD4DE /* AppDelegate.swift */,
-				663912D928EB397100BBD4DE /* SceneDelegate.swift */,
-				663912DB28EB397100BBD4DE /* ViewController.swift */,
 				663912DD28EB397100BBD4DE /* Main.storyboard */,
 				663912E028EB397400BBD4DE /* Assets.xcassets */,
 				663912E228EB397400BBD4DE /* LaunchScreen.storyboard */,
 				663912E528EB397400BBD4DE /* Info.plist */,
-				663912EF28EB39EA00BBD4DE /* NewsTableViewCell.swift */,
 			);
 			path = MVVMApiNews;
 			sourceTree = "<group>";
@@ -77,6 +77,7 @@
 		663912EB28EB39AC00BBD4DE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				660711D128EC4EBB00AB2913 /* News.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,6 +85,7 @@
 		663912EC28EB39B200BBD4DE /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				660711D328EC4FDF00AB2913 /* WebService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -91,6 +93,10 @@
 		663912ED28EB39BA00BBD4DE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				663912EF28EB39EA00BBD4DE /* NewsTableViewCell.swift */,
+				663912D728EB397100BBD4DE /* AppDelegate.swift */,
+				663912D928EB397100BBD4DE /* SceneDelegate.swift */,
+				663912DB28EB397100BBD4DE /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,9 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660711D428EC4FDF00AB2913 /* WebService.swift in Sources */,
 				663912DC28EB397100BBD4DE /* ViewController.swift in Sources */,
 				663912D828EB397100BBD4DE /* AppDelegate.swift in Sources */,
 				663912F028EB39EA00BBD4DE /* NewsTableViewCell.swift in Sources */,
+				660711D228EC4EBB00AB2913 /* News.swift in Sources */,
 				663912DA28EB397100BBD4DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HQ36BVQ22;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MVVMApiNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -350,6 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HQ36BVQ22;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MVVMApiNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

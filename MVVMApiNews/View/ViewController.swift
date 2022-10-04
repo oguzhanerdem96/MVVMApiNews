@@ -11,12 +11,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     
-    let New = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
  
         tableView.delegate = self
         tableView.dataSource = self
+        let url = URL(string:
+         "https://raw.githubusercontent.com/atilsamancioglu/BTK-iOSDataSet/master/dataset.json")
+        WebService().haberleriIndır(url: url!) { (haberler) in
+            if let haberler = haberler {
+                print(haberler)
+            }
+        }
     }
 
 
