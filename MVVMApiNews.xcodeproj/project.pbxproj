@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		660711D228EC4EBB00AB2913 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660711D128EC4EBB00AB2913 /* News.swift */; };
 		660711D428EC4FDF00AB2913 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660711D328EC4FDF00AB2913 /* WebService.swift */; };
+		660711D628EC8AE900AB2913 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660711D528EC8AE900AB2913 /* NewsViewModel.swift */; };
 		663912D828EB397100BBD4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663912D728EB397100BBD4DE /* AppDelegate.swift */; };
 		663912DA28EB397100BBD4DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663912D928EB397100BBD4DE /* SceneDelegate.swift */; };
 		663912DC28EB397100BBD4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663912DB28EB397100BBD4DE /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		660711D128EC4EBB00AB2913 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		660711D328EC4FDF00AB2913 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		660711D528EC8AE900AB2913 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		663912D428EB397100BBD4DE /* MVVMApiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMApiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663912D728EB397100BBD4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663912D928EB397100BBD4DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		663912EE28EB39C000BBD4DE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				660711D528EC8AE900AB2913 /* NewsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				663912DC28EB397100BBD4DE /* ViewController.swift in Sources */,
 				663912D828EB397100BBD4DE /* AppDelegate.swift in Sources */,
 				663912F028EB39EA00BBD4DE /* NewsTableViewCell.swift in Sources */,
+				660711D628EC8AE900AB2913 /* NewsViewModel.swift in Sources */,
 				660711D228EC4EBB00AB2913 /* News.swift in Sources */,
 				663912DA28EB397100BBD4DE /* SceneDelegate.swift in Sources */,
 			);
